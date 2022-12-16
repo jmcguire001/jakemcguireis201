@@ -1,0 +1,459 @@
+body {
+    background-color: rgb(134, 151, 157);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*HEADER*/
+.header-container {
+    position: relative;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+#header-bg {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+    opacity: 50%;
+}
+
+#logo {
+    position: absolute;
+    display:flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: none;
+}
+
+/*NAVBAR*/
+#navbar {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -22px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(96, 174, 229);
+}
+
+#navbar ul li {
+    display: inline;
+    float: left;
+    border-right: 1px solid rgb(134, 151, 157);
+}
+
+#navbar ul li:last-child {
+    border-right: none;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 14px 16px;
+    color:rgb(51, 59, 62);
+    text-align: center;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgb(8, 127, 156);
+}
+
+#navbar ul li:hover {
+    background-color:rgb(161, 150, 30);
+}
+
+#navbar ul li a:hover {
+    color:beige;
+}
+
+/*NAV 2*/
+#nav2 {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 0;
+}
+
+#nav2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(226, 214, 109);
+    height:25px;
+}
+
+#nav2 ul li {
+    display: inline;
+    float: left;
+    border-right: 1px solid rgb(134, 151, 157);
+}
+
+#nav2 ul li a {
+    display: block;
+    color:rgb(1, 97, 107);
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 6px;
+    margin-left: 8px;
+}
+
+#nav2 ul li:hover {
+    background-color:rgb(35, 91, 131);
+}
+
+#nav2 ul li a:hover {
+    color:beige;
+}
+
+/*BODY TEXT*/
+#overview {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(171, 235, 238);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#overview img {
+    width: 45%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius:5px;
+}
+
+#overview-txt {
+    float: left;
+    text-align: justify;
+    width: 45%;
+    height: 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#usepage h2 {
+    text-align: left;
+    margin: 10px;
+}
+
+#usepage p {
+    text-align: justify;
+    margin: 10px;
+}
+
+#usepage {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(248, 245, 188);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align:justify;
+}
+
+/*FOOTER*/
+#footer-cntnr {
+    position: relative;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+#footer-bg {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+    opacity: 50%;
+}
+
+.footer-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    text-align:center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(134, 151, 157);
+    opacity:65%;
+}
+
+.footer-txt a {
+    color:rgb(0, 0, 0);
+}
+
+/*RESUME STYLING*/
+#resume-intro {
+    position: left;
+    width: 50%;
+    margin-left: 30px;
+}
+
+#resume-intro p {
+    text-align: justify;
+}
+
+#resume-start {
+    position: relative;
+    display: inline;
+    float: right;
+    color: rgb(60, 183, 223);
+    margin-top: 10px;
+    width: 30%;
+    border: 5px solid black;
+    background:rgb(234, 241, 208);
+}
+
+#resume-start p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    word-wrap: break-word;
+}
+
+/*SUMMARY STYLING*/
+#summary {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(171, 235, 238);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#summary img {
+    width: 45%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#summary h2 {
+    text-align: center;
+}
+
+.summary-txt {
+    float: right;
+    text-align: justify;
+    width: 45%;
+    height: 40%;
+    margin-right: 10px;
+}
+
+/*EXPERIENCE STYLING*/
+#experience {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(252, 247, 205);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#experience img {
+    width: 45%;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+#experience h2 {
+    text-align: center;
+}
+
+.experience-txt {
+    float: left;
+    text-align: justify;
+    width: 45%;
+    margin-left: 10px;
+}
+
+/*ACCOMPLISHMENTS STYLING*/
+#accomp {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(171, 235, 238);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#accomp img {
+    width: 45%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#accomp h2 {
+    text-align: center;
+}
+
+.accomp-txt {
+    float: right;
+    text-align: justify;
+    width: 45%;
+    height: 40%;
+    margin-right: 10px;
+}
+
+/*TABLEAU EMBEDDING*/
+#links-start h1{
+    text-align: center;
+}
+
+#links-start p {
+    text-align: justify;
+    margin-left: 10px;
+}
+
+#tableau-link {
+    border:5px solid black;
+    background-color: rgb(244, 230, 153);
+    margin-bottom: 10px;
+}
+
+#viz1670754072727 {
+    width:50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#tableau-link h2 {
+    margin-left: 10px;
+}
+
+#tableau-link p {
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+/*YOUTUBE VIDEO LINK*/
+#video-link h2 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#video-link p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#video-link {
+    border: 5px solid black;
+    margin-bottom: 20px;
+    background-color: rgb(146, 231, 243);
+}
+
+#video-link iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/*MY WEBPAGE LINK*/
+#mypage h2 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#mypage p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#mypage {
+    border: 5px solid black;
+    margin-bottom: 20px;
+    background-color: rgb(244, 230, 153);
+}
+
+#mypage a:link {
+    color: rgb(149, 237, 255);
+}
+
+#mypage a:visited {
+    color: rgb(0, 113, 136);
+}
+
+#mypage a:hover {
+    background-color: black;
+    color:white;
+}
+
+/*ABOUT ME*/
+#aboutme h1 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#aboutme h3 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#aboutme p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#aboutme {
+    border: 5px solid black;
+    background-color: rgb(151, 233, 247);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#personal h1 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#personal h3 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#personal p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#personal img {
+    width: 98%;
+    margin-left: 10px;
+    margin-right: -10px;
+    border-radius: 15px;
+}
+
+#personal {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(249, 241, 171);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
